@@ -25,6 +25,7 @@ ping -n 2 localhost > nul
 echo JOIN !channel!
 ping -n 4 localhost > nul
 set stdin=":foo!~foo@bar NOTPRIVMSG #channel :foobar
+::" to escape special char
 :endless_loop
 set /p stdin=
 ::recieve input
